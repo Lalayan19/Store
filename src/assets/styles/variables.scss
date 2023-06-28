@@ -1,0 +1,54 @@
+$black        : #000000;
+$white        : #ffffff;
+$gray-dark    : #535353;
+$gray         : #A2A3AD;
+$light        : #F6F6F6;
+$light-gray   : #F8F8F8;
+$green        : #00AF35;
+$light-green  : #0bbf6b;
+$red          : #FF0000;
+$red-dark     : #AF001E;
+$blue         : #164972;
+$el-blue      : #4FDDD9;
+$light-red    : #F60065;
+$yellow       : #e7ad00;
+$light-yellow : #fbc43a;
+$orange       : #F47421;
+$purple       : #EE00FF;
+$app-color    : $blue;
+$blue-dark    : #001727;
+$light-blue   : #008EFF;
+
+// #region Alternative styles
+
+$gradient         : linear-gradient(to right, $blue, #5e98d4);
+$shadow           : 0 0 10px rgba(0, 0, 0, .1);
+$shadow-dark      : 0 0 10px rgba(0, 0, 0, .2);
+$error-shadow     : 0 0 15px transparentize($red, 0.6);
+$blue-shadow      : 0 0 40px rgba($blue, .2);
+$blue-dark-shadow : 0 0 40px rgba($blue, .4);
+$radius           : 5px;
+$btn-radius       : 20px;
+
+$laptop-size : 1024px;
+$tab-size    : 768px;
+$phone-size  : 520px;
+
+// #endregion
+
+// #region App Components styles
+$body-color : $light;
+$main-color : $blue;
+
+$modal-z      : 1000;
+$right-side-z : $modal-z + 1;
+$header-z     : 500;
+
+$left-side-width        : 300px;
+$left-side-closed-width : 100px;
+$left-side-transition   : .3s;
+$header-height          : 12vh;
+$padding-vw             : 8vw;
+$padding                : 80px;
+$input-height           : 40px;
+// #endregion

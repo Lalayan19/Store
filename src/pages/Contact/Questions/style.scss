@@ -1,0 +1,75 @@
+@import "../../../assets/styles/variables.scss";
+
+.questionsMain {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+
+    .typeUs {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .typeHeader {
+            width: 100%;
+            height: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h2 {
+                font-size: 42px;
+            }
+            p {
+                font-size: 16px;
+                color: #4f4f4f;
+            }
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 70%;
+            justify-content: space-between;
+            textarea {
+                width: 100%;
+                border: 1px solid #DDDDDD;
+                background-color: #fafafa;
+            }
+            button {
+                background-color: #54595f;
+                width: 119px;
+                height: 55px;
+                color: #fefefe;
+                font-size: 15px;
+                border: none;
+            }
+        }
+    }
+    .fastLinks{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        div {
+            width: 70%;
+            height: 40%;
+            border-radius: 15px;
+            box-shadow: $shadow-dark;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 50px 20px ;
+            position: absolute;
+        }
+        .lastLinks {
+            bottom: 15%;
+        }
+
+    }
+}

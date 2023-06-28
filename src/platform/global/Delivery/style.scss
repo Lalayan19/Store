@@ -1,0 +1,22 @@
+@import "../../../assets/styles/variables.scss";
+
+.del {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    div{
+        width: 253px ;
+        height: 80px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #4f4f4f;
+        border-radius: 7px;
+        box-shadow: $shadow-dark;
+        margin: 0 50px;
+    }
+}

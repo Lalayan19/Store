@@ -1,0 +1,48 @@
+@import '../../../../assets/styles/variables.scss';
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    animation: banner 7s  infinite alternate-reverse ;
+    background-image: url(../../../../assets/images/home-slider1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    div {
+        z-index: 2;
+        width: 40%;
+        p {
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 80px;
+            font-weight: 500;
+        }
+
+        a {
+            color: #4f4f4f;
+        }
+    }
+    div * {
+        color: $white;
+        margin: 15px 0;
+    } 
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes banner {
+    from {background-image: url(../../../../assets/images/home-slider1.jpg);}
+    to {background-image: url(../../../../assets/images/home-slider2-1.jpg);}
+}
